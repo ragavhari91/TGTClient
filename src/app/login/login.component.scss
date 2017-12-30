@@ -1,0 +1,63 @@
+@import '../../styles.scss';
+
+html, body{
+    height:100%; 
+    margin:0;
+    padding:0;
+}
+
+.vertical-center {
+    min-height: 100%;  
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+  }
+
+  .card-head{
+      background-color: $primary_color_dark;
+      height:30sp;
+  }
+
+  .card{
+    width:80%;
+  }
+  .card .row{
+     
+      height:60vh;
+  }
+
+  .content-area-outer{
+    background-color: $primary_color_dark;
+    min-height: 100%;  
+  }
+
+  .content-area{
+      margin: 0 auto;
+      width:80%;
+      padding-top: 5%;
+      color:white;
+  }
+
+  .content-area p,.content-area h4{
+      text-align: center
+  }
+
+  .content-area i{
+      color:white;
+  }
+
+  .content-area h4{
+    color:$secondary_color_light;
+  }
+
+  .content-area p{
+    color:$secondary_color_light;
+  }
+
+  .caption{
+    padding-top: 15%;
+  }
+
+  .content-form-area-outer{
+    padding-top: 5%;
+  }
